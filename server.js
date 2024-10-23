@@ -6,7 +6,7 @@ const PORT = 3000;
 const PUBLIC_DIR = path.join(__dirname, "public");
 
 // Liste restreinte de types MIME autorisés
-const <MIME_TYPES> = {
+const MIME_TYPES = {
   ".html": "text/html",
   ".css": "text/css",
   ".js": "text/javascript",
